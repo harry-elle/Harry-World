@@ -14,13 +14,33 @@ body {
   margin: 0;
 }
 
-h1 {
+.topnav {
+  overflow: hidden;
+  background-color: brown;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 10px;
+  font-family: Arial;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.topnav a:hover  {
+  background-color: darkred;
+  color: whitesmoke;
+}
+.header {
   color: whitesmoke;
   background-color: coral;
   text-align: center;
   font-family: Arial;
   font-size: 40px;
-  padding: 40px;
+  padding: 20px;
 }
 
 p {
@@ -34,9 +54,22 @@ p {
 </style>
 </head>
 <body> 
-  
+
+<div class="header">
   <h1>Welcome to Harry World</h1>
+</div>
+
+<div class="topnav">
+  <a href="#">What's Here?</a>
+  <a href="#">How About Here?</a>
+  <a href="#">...Maybe There's Something Here?</a>
+  <a href="#">Surely There Must Be Something Here, Right?</a>
+  <a href="#">All The Other Links Didn't Do Anything, But This One Must, Right?</a>
+  <a href="#">I Give Up.</a>
+  <a href="#">Goodbye.</a>
+</div>
  
   <p>Here at Harry World, you can find absolutely nothing.</p>
-  </body>
+  
+</body>
 </html>
